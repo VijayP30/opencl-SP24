@@ -73,12 +73,7 @@ int main() {
     // Read the memory buffer result_mem_obj to the local variable result
     ret = clEnqueueReadBuffer(command_queue, result_mem_obj, CL_TRUE, 0, n * sizeof(float), result, 0, NULL, NULL);
 
-    // Display the result
-    //printf("Result:\n");
-    //for (int i = 0; i < n; i++) {
-    //    printf("%.2f + %.2f = %.2f\n", a[i], b[i], result[i]);
-    //}
-		printf("Array A:\n");
+    printf("Array A:\n");
     for (int i = 0; i < n; i++) {
         printf("%.2f ", a[i]);
     }
