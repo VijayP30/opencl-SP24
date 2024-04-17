@@ -18,4 +18,6 @@ To compile the programs, use the provided Makefile:
 
 ```bash
 make
+./vector_add
+./device_info
 
