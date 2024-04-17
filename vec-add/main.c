@@ -4,7 +4,6 @@
 
 #define MAX_SOURCE_SIZE (0x100000)
 
-// GPT3.5
 int main() {
     // Load kernel source code
 		FILE *kernel_file;
